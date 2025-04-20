@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Virtual Tour</title>
+    <title>Virtual Property Walkthrough</title>
     <style>
       html, body {
         margin: 0;
@@ -9,21 +9,14 @@
         height: 100%;
         overflow: hidden;
       }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
     </style>
-    <script>
-      (function() {
-        const url = atob("aHR0cHM6Ly9wbGF5Y2Fudi5hcy9wL2Q2YXNkNmI3YS8="); // base64 of your PlayCanvas URL
-        const iframe = document.createElement("iframe");
-        iframe.src = url;
-        iframe.style.width = "100%";
-        iframe.style.height = "100%";
-        iframe.style.border = "none";
-        document.addEventListener("DOMContentLoaded", () => {
-          document.body.appendChild(iframe);
-        });
-      })();
-    </script>
   </head>
   <body>
+    <iframe src="https://playcanv.as/p/d6f56b7a/"></iframe>
   </body>
 </html>
